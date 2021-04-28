@@ -1,0 +1,33 @@
+h1 {
+    color: chartreuse;
+    font-size: 2cm;
+    background-color: pink;
+}
+
+.backDivisao {
+    border: 5px outset darkred;
+    background-color: white;
+    text-align: center;
+}
+
+.h {
+    text-align: center;
+}
+
+.tabela {
+    border: 5px outset black;
+    background-color: white;
+    text-align: center;
+}
+
+.divisao {
+    border: 5px outset red;
+    background-color: white;
+    text-align: center;
+}
+
+.tensho {
+    border: 5px outset purple;
+    background-color: white;
+    text-align: center;
+}
