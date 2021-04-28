@@ -1,39 +1,99 @@
 h1 {
     color: chartreuse;
-    font-size: 2cm;
-    background-color: pink;
+    font-size: 50px;
+    border: rgb(255, 192, 203) 5px solid;
+    background-color: rgb(255, 192, 203);
+    margin-bottom: 8px;
+    border-radius: 5px;
+    box-shadow: rgb(185, 143, 150) 2px 3px 2px 2px;
 }
 
 body {
     font-family: sans-serif;
     margin: 5%;
-    padding: 50px;
+    padding: 5px;
 }
 
-.backDivisao {
-    border: 5px outset darkred;
-    background-color: white;
-    text-align: center;
+a {
+    font-family: sans-serif;
+    text-decoration: unset;
+    color: white;
 }
 
 .h {
     text-align: center;
 }
 
-.tabela {
-    border: 5px outset black;
-    background-color: white;
+.backDivisao {
+    border: 5px solid darkred;
+    background-color: darkred;
     text-align: center;
+    border-radius: 50px;
+    box-shadow: darkred 2px 2px 2px 1px;
+}
+
+.tabela {
+    border: 5px solid darkorange;
+    background-color: darkorange;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: darkorange 0 0 1em;
+    margin: 3px;
 }
 
 .divisao {
-    border: 5px outset red;
-    background-color: white;
+    border: 5px solid red;
+    background-color: red;
     text-align: center;
+    border-radius: 5px;
+    box-shadow: red 0 0 1em;
+    margin: 8px;
 }
 
 .tensho {
-    border: 5px outset purple;
-    background-color: white;
+    border: 5px solid purple;
+    background-color: purple;
     text-align: center;
+    border-radius: 5px;
+    box-shadow: purple 0 0 1em;
+    margin: 6px;
+}
+
+
+/*
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 2%;
+    line-height: 35px;
+    justify-content: space-around;
+}
+
+*/
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    position: absolute;
+}
+
+#imagemGeral {
+    width: 100%;
+}
+
+#tituloDestaque {
+    display: flex;
+    justify-content: center;
+}
+
+#imagemFundo {
+    width: 30%;
+}
+
+#imagemDestaque {
+    width: 15%;
 }
