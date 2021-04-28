@@ -4,6 +4,12 @@ h1 {
     background-color: pink;
 }
 
+body {
+    font-family: sans-serif;
+    margin: 5%;
+    padding: 50px;
+}
+
 .backDivisao {
     border: 5px outset darkred;
     background-color: white;
