@@ -9,14 +9,14 @@
             "type": "firefox",
             "request": "launch",
             "reAttach": true,
-            "file": "${workspaceFolder}/index_divisao.html"
+            "file": "${workspaceFolder}/index_bootstrap.html"
         },
         {
             "name": "Launch localhost",
             "type": "firefox",
             "request": "launch",
             "reAttach": true,
-            "url": "http://localhost/index_divisao.html",
+            "url": "http://localhost/index_bootstrap.html",
             "webRoot": "${workspaceFolder}"
         },
         {
