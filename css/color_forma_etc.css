@@ -13,7 +13,8 @@ body {
     margin: 5%;
     padding: 5px;
     animation-name: colorindo;
-    animation-duration: 3s;
+    animation-duration: 5s;
+    color: darkorange;
 }
 
 @keyframes colorindo {
@@ -25,10 +26,29 @@ body {
     }
 }
 
+.navbar-toggler {
+    color: white;
+    background-color: darkorange;
+}
+
+.text-color {
+    animation-name: colorindo;
+    animation-duration: 5s;
+    color: darkorange;
+}
+
+.button-color {
+    animation-name: colorindo;
+    animation-duration: 5s;
+    color: darkorange;
+    background-color: white;
+}
+
 a {
+    animation-name: colorindo;
+    animation-duration: 3s;
     font-family: sans-serif;
     text-decoration: unset;
-    color: white;
 }
 
 .h {
@@ -90,6 +110,10 @@ a {
     padding-bottom: 2%;
     padding-left: 2%;
     position: absolute;
+}
+
+.card-body {
+    color: aqua;
 }
 
 #produtos {
